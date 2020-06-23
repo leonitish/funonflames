@@ -1,15 +1,35 @@
 body{
 	background-color:white;
 }
+li{
+	list-style: none;
+	float:left;
+}
+.title-content{
+
+}
 .title-content h1{
 	color: red; 
 	font-size: 35px;
 	padding-top: 15px;
 	padding-right: 10px;
 	padding-left: 10px;
+	text-align: center;
+	opacity: .9;
+}
+.title-content li{
+	font-size: 18px;
+	padding: 10px;
+}
+.title-content a{
+	display: inline-block;
+	margin: auto;
+	text-decoration-style: solid; 
+
 }
 header{
 	height: 80px;
 	width:100%;
 	background-color:rgb(196, 217, 245) ;
+	opacity: .6;
 }
