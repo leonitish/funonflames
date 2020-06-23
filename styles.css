@@ -24,8 +24,7 @@ li{
 .title-content a{
 	display: inline-block;
 	margin: auto;
-	text-decoration-style: solid; 
-
+	text-decoration: none; 
 }
 header{
 	height: 80px;
