@@ -3,12 +3,12 @@ body{
 }
 li{
 	list-style: none;
-	float:left;
 }
 .title-content{
+ background-color: rgb(245, 227, 179);
 
 }
-.title-content h1{
+.titles h1{
 	color: red; 
 	font-size: 35px;
 	padding-top: 15px;
@@ -20,15 +20,30 @@ li{
 .title-content li{
 	font-size: 18px;
 	padding: 10px;
+	float: left;
 }
 .title-content a{
 	display: inline-block;
-	margin: auto;
-	text-decoration: none; 
+	text-decoration: none;
+	padding: 20px; 
+	background-color:rgb(245, 227, 179);
 }
 header{
 	height: 80px;
 	width:100%;
 	background-color:rgb(196, 217, 245) ;
 	opacity: .6;
+}
+.middle-content{
+	height: 300px;
+	padding: 50px 450px;
+	margin: 100px;
+	background-color: rgb(162, 250, 186);
+}
+.middle-content input{
+	padding: 15px;
+	margin: 15px;
+}
+.inputs{
+	float: left;
 }
